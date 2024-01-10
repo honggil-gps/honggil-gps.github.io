@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+</head>
+
+<body>
+    <form action="correct.html"></form>
+    <fieldset>
+        <legend>회원가입</legend>
+    <fieldset>
+        <legend>회원 정보 입력</legend>
+            <div><label>아이디(6자이상) : <input type="text"></label></div>
+            <div><label for="password">비밀번호     : <input type="password" name="password" id="password"></label></div>
+            <div><label for="password">비밀번호 확인 : <input type="password" name="password2" id="password2"></label>
+                <form action="correct.html" target="_blank">
+                비밀번호 확인 <input type="submit" value="확인"></div>
+                </form>
+    </fieldset>
+    <fieldset>
+        <legend>본인확인</legend>
+            <div><label>이름 : <input type="text"></label></div>
+                <fieldset>
+                    <legend>성별을 선택해 주세요</legend>
+                        <div> male<input type="radio" name="sex" id="male"></div>
+                        <label for="male"></label>
+                        <div> female<input type="radio" name="sex" id="female"></div>
+                        <label for="female"></label >
+                </fieldset>
+            <div><label>생년월일 : <input type=date name="date" id="date"></label></div>
+            <div><label>이메일 : <input type=email name="email" id="email"></label></div>
+            <div><label for="H.P">휴대폰 번호 : <input type="tel" name="H.P" id="H.P"></label></div>
+    </fieldset>
+    <fieldset>회원 가입 하시겠습니까? : 제출 
+        <form action="signin_done.html" target="_blank">
+        <input type="submit" value="제출" id="submit"><label for="submit"></label></fieldset>
+    </form>
+        <form action="../main.html">
+        <div>메인 페이지로 돌아가기 : <input type="submit" value="return to main" name = "return to main" id="return to main"></div>
+        </form>
+</body>
+</html>
